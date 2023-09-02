@@ -37,23 +37,55 @@ body {
     padding: 1em 1em 0;
 
 }
-#cabecalho span {
+
+#cabecalho #menu .material-symbols-outlined {
     position: absolute;
     cursor: pointer;
     color: var(--amarela-clara);
     font-size: 3em;
+    padding: 0.1em;
     border-radius: 0.3em;
     transition-duration: .6s;
 }
-#cabecalho span:hover {
+#cabecalho #menu .material-symbols-outlined:hover {
     background-color: white;
     color: var(--amarela-escura);
 }
-#cabecalho span:active {
+#cabecalho #menu .material-symbols-outlined:active {
     background-color: var(--amarela-escura);
     color: white;
     transition-duration: .2s;
 }
+#cabecalho #menu .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--amarela-clara);
+    top: 0;
+    left: -80%;
+    opacity: 0%;
+    transition-duration: .4s;
+}
+#cabecalho #menu .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding: 0.8em 1em 0.4em;
+    transition-duration: .6s;
+}
+#cabecalho #menu .menu a:last-child {
+    padding-top: 0.4em;
+    padding-bottom: 0.8em;
+}
+#cabecalho #menu .menu a:hover {
+    background-color: var(--vermelha-clara);
+    padding: 1em;
+}
+#cabecalho #menu .menu a:active {
+    background-color: var(--vermelha-escura);
+    transition-duration: .2s;
+}
+
 #cabecalho .logo img {
     width: 30%;
     height: auto;
@@ -121,10 +153,10 @@ body {
 }
 @keyframes animar {
     0% {
-        transform: translateY(550vh) scale(0);
+        transform: translateY(-20vh) scale(0);
     }
     100% {
-        transform: translateY(-10vh) scale(1);
+        transform: translateY(510vh) scale(1);
     }
 }
 
@@ -144,6 +176,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
 #conteudo #sobre {
