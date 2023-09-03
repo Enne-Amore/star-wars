@@ -1,6 +1,5 @@
-let personagem = document.getElementById('personagem')
 let url = 'https://swapi.dev/api/people/'
-console.log(personagem)
+console.log(url)
 
 function mostrarPersonagens() {
     
@@ -10,7 +9,8 @@ function mostrarPersonagens() {
         fetch(url + i + '/')
         .then(res => { return res.json() } )
         .then(data => {
-            console.log(data) 
+            console.log(data)
+            let personagem = document.getElementsByClassName('personagem')[i - 1]
             personagem.innerHTML += `<p> <img src="../image/personagem-${i}.jpeg" /> </p>`
             personagem.innerHTML += `Nome: ${data.name} <br>`
             personagem.innerHTML += `Massa: ${data.mass} <br>`

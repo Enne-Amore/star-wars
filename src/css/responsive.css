@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 3vw;
+    }
+    #conteudo #sobre, #conteudo #curiosidades {
+        width: auto;
+    }
+}
