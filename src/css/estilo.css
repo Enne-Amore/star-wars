@@ -156,7 +156,7 @@ body {
         transform: translateY(-20vh) scale(0);
     }
     100% {
-        transform: translateY(510vh) scale(1);
+        transform: translateY(1000vh) scale(1);
     }
 }
 
@@ -234,11 +234,11 @@ body {
     padding: 0.3em;
     background-color: rgba(0, 0, 0, 0.178);
 }
-#conteudo #curiosidades .curiosidades .figura .direita {
-    text-align: left;
-}
-#conteudo #curiosidades .curiosidades .figura .esquerda {
+#conteudo #curiosidades .curiosidades .figura.direita {
     text-align: right;
+}
+#conteudo #curiosidades .curiosidades .figura.esquerda {
+    text-align: left;
 }
 
 #conteudo #personagens {
@@ -269,15 +269,41 @@ body {
     text-align: center;
 }
 
+#rodape hr {
+    margin-top: 0.9em;
+}
+
+#rodape h2 {
+    font-size: 1.2em;
+}
+#rodape .creditos {
+    display: flex;
+    justify-content: center;
+    margin: 2% 20% 1%;
+    gap: 5%;
+}
+#rodape .creditos .lista {
+    list-style: none;
+    columns: 2;
+    text-align: start;
+}
+#rodape .creditos .lista li {
+    margin-bottom: 4%;
+}
+
 #rodape a {
     text-decoration: none;
     color: var(--amarela-clara);
     transition-duration: .4s;
 }
 #rodape a:hover {
+    background-color: white;
     color: var(--amarela-escura);
+    padding: 0.1em;
+    border-radius: 1em;
 }
 #rodape a:active {
-    color: var(--laranja);
+    background-color: var(--amarela-escura);
+    color: white;
     transition-duration: .2s;
 }
