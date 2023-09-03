@@ -1,16 +1,27 @@
-let personagens = document.getElementById('personagens')
-console.log(personagens)
+let personagem = document.getElementById('personagem')
+let url = 'https://swapi.dev/api/people/'
+console.log(personagem)
 
 function mostrarPersonagens() {
     
     // personagens.innerHTML = ''
-    fetch('https://swapi.dev/api/people/')
-    .then(res => {return res.json() } )
-    .then(data => { personagens.innerHTML = `<p> ${data.results.name} </p><p> ${data.result.name} </p><p> ${data.name} </p>`
-    data.results.map( (atributo) => {
-        personagens.innerHTML += ` <p> ${atributo.mass} - ${atributo.result.hair_color} - ${atributo.results.skin_color} - ${atributo.results.eye_color} - ${atributo.results.birth_year} - ${atributo.results.gender} </p>` } )
-    })
-    .catch(error => personagens.innerHTML = '<strong> Erro na consulta. </strong>')
+    
+    for (let i = 1 ; i <= 10 ; i++) {
+        fetch(url + i + '/')
+        .then(res => { return res.json() } )
+        .then(data => {
+            console.log(data) 
+            personagem.innerHTML += `<p> <img src="../image/personagem-${i}.jpeg" /> </p>`
+            personagem.innerHTML += `Nome: ${data.name} <br>`
+            personagem.innerHTML += `Massa: ${data.mass} <br>`
+            personagem.innerHTML += `Cor do cabelo: ${data.hair_color} <br>`
+            personagem.innerHTML += `Cor da pele: ${data.skin_color} <br>`
+            personagem.innerHTML += `Cor dos olhos: ${data.eye_color} <br>`
+            personagem.innerHTML += `Ano de nascimento: ${data.birth_year} <br>`
+            personagem.innerHTML += `Identidade de gênero: ${data.gender} <br>`
+        })
+        .catch(error => personagem.innerHTML = '<strong> Erro nos códigos aplicados. </strong>')
+    }
 
 }
 mostrarPersonagens()
