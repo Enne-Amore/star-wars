@@ -2,4 +2,4 @@
 window.sr = ScrollReveal({ reset: true });
 
 // Chamando as tags para aparecerem
-sr.reveal('.personagem');
+sr.reveal('.personagem', {duration: 100});

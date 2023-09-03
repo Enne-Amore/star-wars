@@ -7,6 +7,9 @@
         width: 60%;
         margin-left: 20vw;
     }
+    #conteudo {
+        font-size: 5vw;
+    }
     #conteudo #sobre, #conteudo #curiosidades {
         width: auto;
     }
@@ -34,5 +37,8 @@
     }
     #rodape .creditos {
         margin: 5% auto 2%;
+    }
+    #rodape .creditos .lista li {
+        margin-bottom: 8%;
     }
 }

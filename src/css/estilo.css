@@ -89,8 +89,8 @@ body {
 #cabecalho .logo img {
     width: 30%;
     height: auto;
-    display: flex;
-    margin: auto;
+    display: inline-flex;
+    margin-left: 32vw;
 }
 
 #cabecalho .nav ul {
@@ -207,17 +207,28 @@ body {
     background-color: rgba(0, 0, 0, 0.178);
 }
 
+#conteudo #curiosidades p {
+    text-align: center;
+    width: fit-content;
+}
 #conteudo #curiosidades {
     width: 80%;
     gap: 0.8em;
     margin: 4% auto;
 }
 #conteudo #curiosidades .curiosidades {
-    padding: 0.1em 2em 0.8em;
+    padding: 0.1em 1em 0.8em;
     text-align: justify;
+    list-style: none;
+    counter-reset: mynum;
 }
 #conteudo #curiosidades .curiosidades li {
     margin: 1% auto 5%;
+}
+#conteudo #curiosidades .curiosidades li::before {
+    content: counter(mynum) " - ";
+    counter-increment: mynum;
+    font-weight: bolder;
 }
 #conteudo #curiosidades .curiosidades .figura {
     display: flex;
