@@ -32,8 +32,14 @@
         width: 100%;
         text-align: center;
     }
-    #conteudo #personagens .personagem {
+    #conteudo #personagens .lista-de-personagens {
+        columns: 1;
+        padding: 5%;
+    }
+    #conteudo #personagens .lista-de-personagens .personagem {
         margin: 5% auto;
+        padding: 5%;
+        flex-direction: column;
     }
     #rodape .creditos {
         margin: 5% auto 2%;
