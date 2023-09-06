@@ -259,14 +259,22 @@ body {
     position: relative;
     z-index: 1;
 }
-#conteudo #personagens .personagem {
+#conteudo #personagens .lista-de-personagens {
+    list-style: none;
+    columns: 2;
+    padding: 5%;
+}
+#conteudo #personagens .lista-de-personagens .personagem {
     background-color: white;
     margin: 2% auto;
     padding: 3%;
     width: max-content;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-#conteudo #personagens img {
+#conteudo .lista-de-personagens #personagens img {
     width: 100%;
     height: 100%;
 }
