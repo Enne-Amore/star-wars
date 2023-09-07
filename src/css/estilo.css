@@ -87,6 +87,7 @@ body {
 }
 
 #cabecalho .logo img {
+    background-color: rgba(0, 0, 0, 0.178);
     width: 30%;
     height: auto;
     display: inline-flex;
@@ -165,7 +166,7 @@ body {
     font-size: 2em;
     background-color: rgba(0, 0, 0, 0.178);
     width: 100%;
-    padding: 0.5em 0 0.3em;
+    padding: 0.5em 0em 0.3em;
     text-align: center;
 }
 
@@ -196,6 +197,7 @@ body {
     padding-bottom: 1em;
 }
 #conteudo #sobre .figura img {
+    background-color: rgba(0, 0, 0, 0.178);
     width: 100%;
     height: 100%;
 }
@@ -236,6 +238,7 @@ body {
     margin: 2% auto;
 }
 #conteudo #curiosidades .curiosidades .figura img {
+    background-color: rgba(0, 0, 0, 0.178);
     width: 60%;
     height: 60%;
 }
@@ -255,14 +258,15 @@ body {
 #conteudo #personagens {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: auto -3.4%;
     position: relative;
     z-index: 1;
+    max-width: 100vw;
 }
 #conteudo #personagens .lista-de-personagens {
     list-style: none;
     columns: 2;
-    margin: 3% auto;
+    margin: 3%;
 }
 #conteudo #personagens .lista-de-personagens .personagem {
     background-color: white;
@@ -272,11 +276,30 @@ body {
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
 }
-#conteudo .lista-de-personagens #personagens img {
+#conteudo #personagens .lista-de-personagens .personagem .foto img {
+    background-color: rgba(0, 0, 0, 0.178);
     width: 100%;
     height: 100%;
+}
+#conteudo #personagens .lista-de-personagens .personagem .aspectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    padding-right: 2.5%;
+    gap: 1vw;
+}
+#conteudo #personagens .lista-de-personagens .personagem .aspectos .nome {
+    font-family: var(--fonte-titulo);
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 5%;
+    width: 110%;
+    text-align: center;
+}
+#conteudo #personagens .lista-de-personagens .personagem .aspectos .aspecto {
+    width: max-content;
 }
 
 /* O rodapé do site */
