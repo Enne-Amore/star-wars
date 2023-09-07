@@ -33,8 +33,12 @@
         text-align: center;
     }
     #conteudo #personagens .lista-de-personagens {
-        columns: 1;
         padding: 5%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     #conteudo #personagens .lista-de-personagens .personagem {
         margin: 5% auto;
