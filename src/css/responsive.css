@@ -45,7 +45,7 @@
     }
     #conteudo #personagens .lista-de-personagens .personagem {
         margin: 5% 0;
-        padding: 5%;
+        padding: 6%;
         flex-direction: column;
         gap: 0;
     }
@@ -55,7 +55,7 @@
         padding-right: 0;
     }
     #conteudo #personagens .lista-de-personagens .personagem .aspectos .nome {
-        width: 110%;
+        width: 112%;
         padding: 5% 0;
     }
 

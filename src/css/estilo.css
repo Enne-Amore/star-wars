@@ -205,6 +205,7 @@ body {
     text-align: center;
     width: 100%;
     height: max-content;
+    font-size: 0.9em;
     padding: 0.3em;
     background-color: rgba(0, 0, 0, 0.178);
 }
@@ -243,8 +244,9 @@ body {
     height: 60%;
 }
 #conteudo #curiosidades .curiosidades .figura figcaption {
-    width: fit-content;
+    width: 20%;
     height: max-content;
+    font-size: 0.9em;
     padding: 0.3em;
     background-color: rgba(0, 0, 0, 0.178);
 }
