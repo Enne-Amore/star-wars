@@ -26,7 +26,7 @@ html {
 body {
     max-width: 100%;
     height: auto;
-    font:  1.5em var(--fonte-padrao);
+    font: 1.8vw var(--fonte-padrao);
 }
 
 /* O cabeçalho do site */
@@ -258,30 +258,32 @@ body {
 }
 
 #conteudo #personagens {
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    margin: auto -3.4%;
+    margin: auto -4.5%;
     position: relative;
     z-index: 1;
-    max-width: 100vw;
 }
 #conteudo #personagens .lista-de-personagens {
     list-style: none;
     columns: 2;
-    margin: 3%;
+    margin: 3% auto;
 }
 #conteudo #personagens .lista-de-personagens .personagem {
     background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.144);
     margin: 10% auto;
-    padding: 3%;
+    padding: 3% 6% 3% 3%;
     width: max-content;
     text-align: center;
     display: flex;
-    align-items: center;
-    gap: 2vw;
+    align-items: flex-start;
+    gap: 3vw;
 }
 #conteudo #personagens .lista-de-personagens .personagem .foto img {
     background-color: rgba(0, 0, 0, 0.178);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.144);
     width: 100%;
     height: 100%;
 }
@@ -297,7 +299,7 @@ body {
     font-family: var(--fonte-titulo);
     background-color: rgba(0, 0, 0, 0.178);
     padding: 5%;
-    width: 110%;
+    width: 120%;
     text-align: center;
 }
 #conteudo #personagens .lista-de-personagens .personagem .aspectos .aspecto {
