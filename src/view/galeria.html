@@ -12,35 +12,56 @@
     <script src="../js/personagens.js" defer></script>
 </head>
 <body>
+
     <header id="cabecalho">
+
         <nav id="menu">
-            <span class="material-symbols-outlined" id="icone-de-menu">
+
+            <span class="material-symbols-outlined sr-only" id="icone-de-menu" aria-hidden="true" tabindex="0">
                 menu
             </span>
+
             <ul class="menu" id="paginas-de-menu">
-                <a href="../../index.html" rel="prev" class="pagina">Ínicio</a>
-                <a href="galeria.html" rel="self" class="pagina">Galeria</a>
+
+                <a href="../../index.html" aria-label="A primeira página do site" rel="prev" class="pagina">Ínicio</a>
+
+                <a href="galeria.html" aria-label="A segunda e última página do site" rel="self" class="pagina">Galeria</a>
+
             </ul>
+
         </nav>
+
         <figure class="logo" id="logo">
-            <a href="../../index.html" rel="prev"><img src="../image/Logo-Star-Wars.png" alt="Logo da Star Wars"></a>
+            <a href="../../index.html" aria-label="Logo do site clicável para a página principal" rel="prev"><img src="../image/Logo-Star-Wars.png" alt="Logo da Star Wars"></a>
         </figure>
+
         <nav class="nav" id="nav">
             <ul>
-                <a href="#personagens">Personagens</a>
-                <a href="#rodape">Créditos</a>
+
+                <a href="#personagens" aria-label="Personagens da franquia">Personagens</a>
+
+                <a href="#rodape" aria-label="Créditos de desenvolvedore do site">Créditos</a>
+
             </ul>
         </nav>
+
     </header>
+
     <main id="conteudo">
+
         <section id="personagens">
+
             <h1>Lista de personagens</h1>
+
             <ul class="lista-de-personagens">
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -49,13 +70,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -64,13 +89,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+                
                 <li>
                     <article class="personagem">
+                        
                         <figure class="foto">
 
                         </figure>
+                        
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -79,13 +108,17 @@
 
                             </p>
                         </article>
+                        
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -94,13 +127,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -109,13 +146,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -124,13 +165,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -139,13 +184,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -154,13 +203,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -169,13 +222,17 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
                 <li>
                     <article class="personagem">
+
                         <figure class="foto">
 
                         </figure>
+
                         <article class="aspectos">
                             <h2 class="nome">
 
@@ -184,10 +241,15 @@
 
                             </p>
                         </article>
+
                     </article>
                 </li>
+
             </ul>
+
         </section>
+
+        <!--Animação de fundo da tela do conteúdo-->
         <div class="bolhas">
             <span style="--i:11"></span>
             <span style="--i:9"></span>
@@ -234,32 +296,48 @@
             <span style="--i:16"></span>
             <span style="--i:10"></span>
         </div>
+
     </main>
+
     <footer id="rodape">
+
         <p>
-            Site criado por <a href="https://github.com/Enne-Amore" rel="external" target="_blank">Enne Jim Pessoa</a>
+            Site criado por <a href="https://github.com/Enne-Amore" aria-label="Minha conta do GitHub" rel="external" target="_blank">Enne Jim Pessoa</a>
         </p>
+
         <hr>
+
         <section class="creditos">
+
             <h2>Créditos:</h2>
+
             <ul class="lista">
+
                 <li>
-                    <a href="https://www.imagensempng.com.br/logo-star-wars-png/" rel="external" target="_blank">Logo do site</a>
+                    <a href="https://www.imagensempng.com.br/logo-star-wars-png/" aria-label="Logo que simboliza a franquia" rel="external" target="_blank">Logo do site</a>
                 </li>
+
                 <li>
-                    <a href="https://www.aficionados.com.br/star-wars/" rel="external" target="_blank">Informações da franquia</a>
+                    <a href="https://www.aficionados.com.br/star-wars/" aria-label="Informações pegas que são sobre a franquia" rel="external" target="_blank">Informações da franquia</a>
                 </li>
+
                 <li>
-                    <a href="https://www.selecoes.com.br/cultura-lazer/curiosidades-sobre-star-wars-que-voce-nunca-soube-vb/" rel="external" target="_blank">Curiosidades da franquia</a>
+                    <a href="https://www.selecoes.com.br/cultura-lazer/curiosidades-sobre-star-wars-que-voce-nunca-soube-vb/" aria-label="Informações pegas que são de curiosidades da franquia" rel="external" target="_blank">Curiosidades da franquia</a>
                 </li>
+
                 <li>
-                    <a href="https://br.pinterest.com" rel="external" target="_blank">Imagem de cada personagem</a>
+                    <a href="https://br.pinterest.com" aria-label="Imagem representativa de cada personagem apresentada" rel="external" target="_blank">Imagem de cada personagem</a>
                 </li>
+
                 <li>
-                    <a href="https://www.flaticon.com/free-icons/star-wars" title="star wars icons" rel="external" target="_blank">Ícone do site</a>
+                    <a href="https://www.flaticon.com/free-icons/star-wars" aria-label="Ícone que representa a: duas espadas" title="star wars icons" rel="external" target="_blank">Ícone do site</a>
                 </li>
+
             </ul>
+
         </section>
+
     </footer>
+
 </body>
 </html>

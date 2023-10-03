@@ -11,46 +11,72 @@
     <script src="src/js/menu.js" defer></script>
 </head>
 <body>
+
     <header id="cabecalho">
+
         <nav id="menu">
-            <span class="material-symbols-outlined" id="icone-de-menu">
+
+            <span class="material-symbols-outlined sr-only" id="icone-de-menu" aria-hidden="true" tabindex="0">
                 menu
             </span>
+
             <ul class="menu" id="paginas-de-menu">
-                <a href="index.html" rel="self class="pagina">Ínicio</a>
-                <a href="src/view/galeria.html" rel="next" class="pagina">Galeria</a>
+
+                <a href="index.html" aria-label="A primeira página do site" rel="self" class="pagina">Início</a>
+
+                <a href="src/view/galeria.html" aria-label="A segunda e última página do site" rel="next" class="pagina">Galeria</a>
+
             </ul>
+
         </nav>
+
         <figure class="logo" id="logo">
-            <a href="index.html" rel="self"><img src="src/image/Logo-Star-Wars.png" alt="Logo da Star Wars"></a>
+            <a href="index.html" aria-label="Logo do site clicável para a página principal" rel="self"><img src="src/image/Logo-Star-Wars.png" alt="Logo da Star Wars"></a>
         </figure>
+
         <nav class="nav" id="nav">
             <ul>
-                <a href="#sobre">Sobre</a>
-                <a href="#curiosidades">Curiosidades</a>
-                <a href="#rodape">Créditos</a>
+
+                <a href="#sobre" aria-label="Sobre o conteúdo">Sobre</a>
+
+                <a href="#curiosidades" aria-label="Curiosidades da franquia">Curiosidades</a>
+
+                <a href="#rodape" aria-label="Créditos de desenvolvedore do site">Créditos</a>
+
             </ul>
         </nav>
+
     </header>
+
     <main id="conteudo">
+
         <section id="sobre">
+
             <h1>O que é ?</h1>
+
             <p>
                 Star Wars é uma série de filmes criada pelo cineasta George Lucas. Lançada em 1977, a franquia tornou-se um ícone da cultura pop, conquistando milhões de fãs ao redor do mundo. Inspirado em clássicos como Flash Gordon, Star Wars buscou influências que vão desde as produções de Akira Kurosawa aos filmes Western.
             </p>
+
             <figure class="figura">
                 <img src="src/image/star-wars-31_cke.webp" alt="Capa do filme com personagens principais presentes">
                 <figcaption>
                     Capa do filme com personagens principais presentes
                 </figcaption>
             </figure>
+
         </section>
+
         <section id="curiosidades">
+
             <h1>Curiosidades</h1>
+
             <p>
                 5 curiosidades legais sobre a essa franquia.
             </p>
+
             <ol class="curiosidades">
+
                 <li>
                     O som peculiar do maior vilão das galáxias foi criado pelo sonoplasta e designer de som estadunidense Ben Burtt. Ele desenvolveu o som colocando um pequeno microfone no bocal de um respirador de mergulho e gravou o som de sua própria respiração.
                     <figure class="figura esquerda">
@@ -60,6 +86,7 @@
                         </figcaption>
                     </figure>
                 </li>
+
                 <li>
                     A famosa língua falada pela tribo do Ewoks foi baseada no tibetano. Ao assistir um documentário sobre o tibetano (idioma da Região Autônoma do Tibete da República Popular da China) na BBC, Ben Burtt se inspirou e usou gravações de falantes nativos como base para os sons que se tornaram o idioma Ewok. 
                     <figure class="figura direita">
@@ -69,6 +96,7 @@
                         <img src="src/image/criaturas-armadas.png" alt="Criaturas armadas e atentas">
                     </figure>
                 </li>
+
                 <li>
                     Originalmente, George Lucas havia pensado em Darth Vader como um caçador de recompensas intergalático. Porém, depois do desenvolvimento do personagem, decidiu deixar o conceito do caçador para Bobba Fett. Além disso, o diretor e sua produção considerarem revelar na produção dos prelúdios que Darth e Bobba seriam irmãos, mas desistiu da ideia por considerá-la "muito clichê". 
                     <figure class="figura esquerda">
@@ -78,6 +106,7 @@
                         </figcaption>
                     </figure>
                 </li>
+
                 <li>
                     Atualmente conhecida como diretora dos filmes 'Encontros e Desencontros' (2003) e 'As Virgens Suicidas' (1999), Sofia Coppola atuou em 'Star Wars, Episódio I: A Ameaça Fantasma' como Saché, uma das acompanhantes de Padmé Amidala. 
                     <figure class="figura direita">
@@ -87,11 +116,16 @@
                         <img src="src/image/ameaca-fantasma.png" alt="Keira Knightley, Sofia Coppola e Natalie Portman">
                     </figure>
                 </li>
+
                 <li>
                     E quem disse isso foi o próprio George Lucas. Em 1978, o especial 'The Star Wars Holiday Special' foi exibido uma única vez e, na trama, Chewbacca precisa voltar ao planeta de origem para passar as festas de fim de ano com a família. Porém, o diretor considera o especial tão desastroso que renega totalmente sua existência.
                 </li>
+
             </ol>
+
         </section>
+
+        <!--Animação de fundo da tela do conteúdo-->
         <div class="bolhas">
             <span style="--i:11"></span>
             <span style="--i:9"></span>
@@ -139,31 +173,46 @@
             <span style="--i:10"></span>
         </div>
     </main>
+
     <footer id="rodape">
+
         <p>
-            Site criado por <a href="https://github.com/Enne-Amore" rel="external" target="_blank">Enne Jim Pessoa</a>
+            Site criado por <a href="https://github.com/Enne-Amore" aria-label="Minha conta do GitHub" rel="external" target="_blank">Enne Jim Pessoa</a>
         </p>
+
         <hr>
+
         <section class="creditos">
+
             <h2>Créditos:</h2>
+
             <ul class="lista">
+
                 <li>
-                    <a href="https://www.imagensempng.com.br/logo-star-wars-png/" rel="external" target="_blank">Logo do site</a>
+                    <a href="https://www.imagensempng.com.br/logo-star-wars-png/" aria-label="Logo que simboliza a franquia" rel="external" target="_blank">Logo do site</a>
                 </li>
+
                 <li>
-                    <a href="https://www.aficionados.com.br/star-wars/" rel="external" target="_blank">Informações da franquia</a>
+                    <a href="https://www.aficionados.com.br/star-wars/" aria-label="Informações pegas que são sobre a franquia" rel="external" target="_blank">Informações da franquia</a>
                 </li>
+
                 <li>
-                    <a href="https://www.selecoes.com.br/cultura-lazer/curiosidades-sobre-star-wars-que-voce-nunca-soube-vb/" rel="external" target="_blank">Curiosidades da franquia</a>
+                    <a href="https://www.selecoes.com.br/cultura-lazer/curiosidades-sobre-star-wars-que-voce-nunca-soube-vb/" aria-label="Informações pegas que são de curiosidades da franquia" rel="external" target="_blank">Curiosidades da franquia</a>
                 </li>
+
                 <li>
-                    <a href="https://br.pinterest.com" rel="external" target="_blank">Imagem de cada personagem</a>
+                    <a href="https://br.pinterest.com" aria-label="Imagem representativa de cada personagem apresentada" rel="external" target="_blank">Imagem de cada personagem</a>
                 </li>
+
                 <li>
-                    <a href="https://www.flaticon.com/free-icons/star-wars" title="star wars icons" rel="external" target="_blank">Ícone do site</a>
+                    <a href="https://www.flaticon.com/free-icons/star-wars" aria-label="Ícone que representa a: duas espadas" title="star wars icons" rel="external" target="_blank">Ícone do site</a>
                 </li>
+
             </ul>
+
         </section>
+
     </footer>
+
 </body>
 </html>

@@ -335,6 +335,7 @@ body {
 }
 #rodape .creditos .lista li {
     margin-bottom: 4%;
+    width: max-content;
 }
 
 #rodape a {
