@@ -60,6 +60,12 @@
         padding: 5% 0;
     }
 
+    #conteudo #topo {
+        right: 4%;
+        font-size: 3em;
+        padding: 2%;
+    }
+
     #rodape .creditos {
         margin: 5% auto 2%;
     }
