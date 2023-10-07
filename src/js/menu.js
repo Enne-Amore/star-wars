@@ -11,6 +11,18 @@ menu.addEventListener('click', ()=> {
     }
 })
 
+// Acesso ao menu usando o teclado
+menu.addEventListener('keypress', (tecla) => {
+    if (tecla.key === 'Enter') {
+        tecla.target.click()
+
+        // Deixando a primeira opção do menu focalizada ao abrí-lo
+        const inicio = document.getElementsByTagName('a')[1]
+        inicio.focus()
+
+    }
+})
+
 // Fechar menu
 // Chamando as outras tags com constantes
 let pagina = document.querySelector('.pagina')
