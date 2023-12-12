@@ -92,15 +92,20 @@ body {
     background-color: var(--vermelha-escura);
     transition-duration: .2s;
 }
+#cabecalho .logo {
+    margin-left: 32vw;
+}
+#cabecalho .logo a {
+    display: inline;
+}
 #cabecalho .logo a:focus-visible {
     outline: auto;
+    border-radius: 1em;
 }
-#cabecalho .logo img {
+#cabecalho .logo a img {
     background-color: rgba(0, 0, 0, 0.178);
-    width: 30%;
+    width: 45%;
     height: auto;
-    display: inline-flex;
-    margin-left: 32vw;
 }
 
 #cabecalho .nav ul {

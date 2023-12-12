@@ -4,9 +4,20 @@
         font-size: 4vw;
     }
 
-    #cabecalho .logo img {
-        width: 60%;
+    #cabecalho .logo {
         margin-left: 20vw;
+    }
+    #cabecalho .logo a img {
+        width: 75%;
+    }
+    #cabecalho .nav ul {
+        padding: 1.5em 0 0.5em;
+    }
+    #cabecalho .nav ul a {
+        padding: 0.5em 0.3em;
+    }
+    #cabecalho .nav ul a:hover {
+        padding: 0.5em 0.4em;
     }
 
     #conteudo {
