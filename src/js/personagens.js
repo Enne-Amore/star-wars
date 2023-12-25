@@ -5,29 +5,29 @@ function mostrarPersonagens() {
     
     // Acessando cada info de cada personagem
     for (let i = 1 ; i <= 10 ; i++) {
-        fetch(url + i + '/')
-        .then(res => { return res.json() } )
-        .then(data => {
-            // Adicionando cada info na tela
-            let foto = document.getElementsByClassName('foto')[i - 1]
-            foto.innerHTML += `<img src="../image/personagem-${i}.jpeg" />`
-        })
+        // fetch(url + i + '/')
+        // .then(res => { return res.json() } )
+        // .then(() => {
+        // })
+        // Adicionando cada info na tela
+        let foto = document.getElementsByClassName('foto')[i - 1]
+        foto.innerHTML += `<img src="../image/personagem-${i}.jpeg" />`
     }
-    for (let n = 1 ; n <= 10 ; n++) {
-            fetch(url + n + '/')
+    for (let i = 1 ; i <= 10 ; i++) {
+            fetch(url + i + '/')
             .then(res => { return res.json() } )
             .then(data => {
                 // Adicionando cada info na tela
-                let nome = document.getElementsByClassName('nome')[n - 1]
-                nome.innerHTML += data.name
+                let nome = document.getElementsByClassName('nome')[i - 1]
+                nome.textContent += data.name
         })
     }
-    for (let a = 1 ; a <= 10 ; a++) {
-            fetch(url + a + '/')
+    for (let i = 1 ; i <= 10 ; i++) {
+            fetch(url + i + '/')
             .then(res => { return res.json() } )
             .then(data => {
                 // Adicionando cada info na tela
-                let aspecto = document.getElementsByClassName('aspecto')[a - 1]
+                let aspecto = document.getElementsByClassName('aspecto')[i - 1]
                 aspecto.innerHTML += `Massa: ${data.mass} <br>`
                 aspecto.innerHTML += `Cor do cabelo: ${data.hair_color} <br>`
                 aspecto.innerHTML += `Cor da pele: ${data.skin_color} <br>`

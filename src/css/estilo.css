@@ -9,8 +9,8 @@
 :root {
     --vermelha-escura: #730710;
     --vermelha-clara: #D91828;
-    --amarela-clara: #F2B705;
     --amarela-escura: #F29F05;
+    --amarela-clara: #F2B705;
     --laranja: #F28705;
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'star-wars';
@@ -275,22 +275,22 @@ body {
 }
 
 #conteudo #personagens {
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
-    margin: auto -4.5%;
+    margin: auto;
     position: relative;
     z-index: 1;
 }
 #conteudo #personagens .lista-de-personagens {
     list-style: none;
     columns: 2;
-    margin: 3% auto;
+    margin: 3% 1%;
 }
 #conteudo #personagens .lista-de-personagens .personagem {
     background-color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.144);
-    margin: 10% auto;
+    margin: 10% -3.8%;
     padding: 3% 6% 3% 3%;
     width: max-content;
     text-align: center;
