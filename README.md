@@ -49,13 +49,13 @@ Desafio proposto pelo projeto de extensão Fábrica De Software da faculdade UNI
 
 ```http
   .then(data => {
-    console.log(
-      data.name
-      data.mass
-      data.hair_color
-      data.skin_color
-      data.eye_color
-      data.birth_year
+    console.table(
+      data.name,
+      data.mass,
+      data.hair_color,
+      data.skin_color,
+      data.eye_color,
+      data.birth_year,
       data.gender
     )
   })
@@ -63,7 +63,6 @@ Desafio proposto pelo projeto de extensão Fábrica De Software da faculdade UNI
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `data`      | `any` | **Obrigatórios**. Os dados do personagem que você quer |
 | `data.name`      | `any` | **Obrigatório**. O nome do personagem que você quer |
 | `data.mass`      | `any` | **Obrigatória**. A Massa do personagem que você quer |
 | `data.hair_color`      | `any` | **Obrigatória**. A cor do cabelo do personagem que você quer |
