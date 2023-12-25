@@ -1,5 +1,5 @@
 
-# workshop-frontend-2023.2
+# 🌌 workshop-frontend-2023.2
 
 Desafio proposto pelo projeto de extensão Fábrica De Software da faculdade UNIPÊ. Um site web que possui um pouco da franquia Star Wars como conteúdo. Ademais, o projeto se concentra na utilização de uma API. Nesse caso, utiliza-se uma API de dados de personagens da franquia.
 
