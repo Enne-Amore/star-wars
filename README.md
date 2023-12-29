@@ -1,28 +1,28 @@
 
 # 🌌 workshop-frontend-2023.2
 
-Desafio proposto pelo projeto de extensão Fábrica De Software da faculdade UNIPÊ. Um site web que possui um pouco da franquia Star Wars como conteúdo. Ademais, o projeto se concentra na utilização de uma API. Nesse caso, utiliza-se uma API de dados de personagens da franquia.
-
-
-## ✅ Demonstração
-
-[Clique aqui para acessar o meu site](https://enne-amore.github.io/workshop-frontend-2023.2/)
-
-
-## 🚀 Tecnologias Utilizadas
-
-- HTML
-- CSS
-- JavaScript
+ Desafio proposto pelo projeto de extensão Fábrica De Software da faculdade UNIPÊ. Um site web que possui um pouco da franquia Star Wars como conteúdo. Ademais, o projeto se concentra na utilização de uma API. Nesse caso, utiliza-se uma API de dados de personagens da franquia.
 
 
 ## 🪄 Funcionalidades
 
-- Menu de navegação por páginas abrível e fechável
-- Barra horizontal de navegação por dentro da página 
-- Mais acessibilidade usando a tecla "tab"
-- Efeitos de "hover" e de "active" nos elementos clicáveis
-- Botão de voltar ao topo da página
+ - Menu de navegação por páginas abrível e fechável
+ - Barra horizontal de navegação por dentro da página 
+ - Mais acessibilidade usando a tecla "tab"
+ - Efeitos de "hover" e de "active" nos elementos clicáveis
+ - Botão de voltar ao topo da página
+
+
+## ✅ Demonstração
+
+ [Clique aqui para acessar o meu site](https://enne-amore.github.io/workshop-frontend-2023.2/)
+
+
+## 🚀 Tecnologias Utilizadas
+
+ - HTML
+ - CSS
+ - JavaScript
 
 
 ## 📁 Documentação Da API
@@ -96,5 +96,5 @@ Desafio proposto pelo projeto de extensão Fábrica De Software da faculdade UNI
 
 ## 🔧 Suporte
 
-Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
+ Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
 
