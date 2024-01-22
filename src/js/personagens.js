@@ -37,9 +37,15 @@ function mostrarPersonagens() {
         })
     }
 
+    for (let i = 1 ; i <= 10 ; i++) {
+        fetch(url + i + '/')
         // Prevendo erros de aplicação
-        let erro = document.getElementsByClassName('personagem')[0]
-        .catch(error => erro.innerHTML = '<strong> Erro nos códigos aplicados. </strong>')
+        .catch(error => {
+                let erro = document.getElementsByClassName('personagem')[0]
+                erro.innerHTML = `<strong> Erro nos códigos aplicados. O erro é: ${error} </strong>`
+            }
+        )
+    }
 }
 
 // Chamando a função para o funcionamento

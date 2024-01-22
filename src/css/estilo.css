@@ -1,11 +1,33 @@
-@charset 'UTF-8';
+/* A mente do site */
+@charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 100%;
+    height: auto;
+    font: 1.8vw var(--fonte-padrao);
+}
+
+:focus {
+    outline: 0;
+}
+
+/* Fonte Ortográfica */
 @font-face {
     font-family: 'star-wars';
     src: url(../fonts/sf_distant_galaxy/SF\ Distant\ Galaxy\ Outline.ttf) format(truetype);
 }
 
-/* A mente do site */
+/* Variáveis de cores e de fonte */
 :root {
     --vermelha-escura: #730710;
     --vermelha-clara: #D91828;
@@ -15,25 +37,26 @@
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'star-wars';
 }
-:focus {
-    outline: 0;
+
+/* Estilização da barrinha de rolagem */
+::-webkit-scrollbar {
+    width: auto;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+::-webkit-scrollbar-track {
+    background-color: black;
 }
-html {
-    scroll-behavior: smooth;
+::-webkit-scrollbar-thumb {
+    background-color: var(--amarela-clara);
+    border-radius: 1em;
 }
-body {
-    max-width: 100%;
-    height: auto;
-    font: 1.8vw var(--fonte-padrao);
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--amarela-escura);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--laranja);
 }
 
 /* O cabeçalho do site */
-
 #cabecalho {
     background-color: black;
     color: white;
@@ -135,7 +158,6 @@ body {
 }
 
 /* O conteúdo do site */
-
 #conteudo {
     background-color: var(--laranja);
     padding: 1em;
@@ -349,7 +371,6 @@ body {
 }
 
 /* O rodapé do site */
-
 #rodape {
     background-color: var(--vermelha-escura);
     color: white;

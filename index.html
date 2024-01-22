@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars</title>
+    <link rel="shortcut icon" href="src/image/light-saber.png" type="image/x-icon">
+    <!-- CSS -->
     <link rel="stylesheet" href="src/css/estilo.css">
     <link rel="stylesheet" href="src/css/responsive.css">
-    <link rel="shortcut icon" href="src/image/light-saber.png" type="image/x-icon">
+    <!-- Fontes -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- JavaScript -->
     <script src="src/js/menu.js" defer></script>
     <script src="src/js/topo.js" defer></script>
 </head>
 <body>
-
     <header id="cabecalho">
-
         <figure class="logo" id="logo">
             <a href="index.html" aria-label="Logo do site clicável para a página principal" rel="self">
                 <img src="src/image/Logo-Star-Wars.png" alt="Logo da Star Wars">
@@ -23,40 +24,41 @@
         </figure>
 
         <nav id="menu">
-
             <!--Botão de menu-->
             <span class="material-symbols-outlined sr-only" id="icone-de-menu" aria-hidden="true" tabindex="0">
                 menu
             </span>
 
             <ul class="menu" id="paginas-de-menu">
+                <a href="index.html" aria-label="A primeira página do site" rel="self" class="pagina">
+                    Início
+                </a>
 
-                <a href="index.html" aria-label="A primeira página do site" rel="self" class="pagina">Início</a>
-
-                <a href="src/view/galeria.html" aria-label="A segunda e última página do site" rel="next" class="pagina">Galeria</a>
-
+                <a href="src/view/galeria.html" aria-label="A segunda e última página do site" rel="next" class="pagina">
+                    Galeria
+                </a>
             </ul>
-
         </nav>
 
         <nav class="nav" id="nav">
             <ul>
+                <a href="#sobre" aria-label="Sobre o conteúdo">
+                    Sobre
+                </a>
 
-                <a href="#sobre" aria-label="Sobre o conteúdo">Sobre</a>
+                <a href="#curiosidades" aria-label="Curiosidades da franquia">
+                    Curiosidades
+                </a>
 
-                <a href="#curiosidades" aria-label="Curiosidades da franquia">Curiosidades</a>
-
-                <a href="#rodape" aria-label="Créditos de desenvolvedore do site">Créditos</a>
-
+                <a href="#rodape" aria-label="Créditos de desenvolvedore do site">
+                    Créditos
+                </a>
             </ul>
         </nav>
-
     </header>
 
     <main id="conteudo">
-
         <section id="sobre">
-
             <h1>O que é ?</h1>
 
             <p>
@@ -65,15 +67,14 @@
 
             <figure class="figura">
                 <img src="src/image/star-wars-31_cke.webp" alt="Capa do filme com personagens principais presentes">
+
                 <figcaption>
                     Capa do filme com personagens principais presentes
                 </figcaption>
             </figure>
-
         </section>
 
         <section id="curiosidades">
-
             <h1>Curiosidades</h1>
 
             <p>
@@ -81,7 +82,6 @@
             </p>
 
             <ol class="curiosidades">
-
                 <li>
                     O som peculiar do maior vilão das galáxias foi criado pelo sonoplasta e designer de som estadunidense Ben Burtt. Ele desenvolveu o som colocando um pequeno microfone no bocal de um respirador de mergulho e gravou o som de sua própria respiração.
                     <figure class="figura esquerda">
@@ -125,9 +125,7 @@
                 <li>
                     E quem disse isso foi o próprio George Lucas. Em 1978, o especial 'The Star Wars Holiday Special' foi exibido uma única vez e, na trama, Chewbacca precisa voltar ao planeta de origem para passar as festas de fim de ano com a família. Porém, o diretor considera o especial tão desastroso que renega totalmente sua existência.
                 </li>
-
             </ol>
-
         </section>
 
         <!--Botão de voltar ao topo-->
@@ -182,11 +180,9 @@
             <span style="--i:16"></span>
             <span style="--i:10"></span>
         </div>
-
     </main>
 
     <footer id="rodape">
-
         <p>
             Site criado por <a href="https://github.com/Enne-Amore" aria-label="Minha conta do GitHub" rel="external" target="_blank">Enne Jim Pessoa</a>
         </p>
@@ -194,11 +190,9 @@
         <hr>
 
         <section class="creditos">
-
             <h2>Créditos:</h2>
 
             <ul class="lista">
-
                 <li>
                     <a href="https://www.imagensempng.com.br/logo-star-wars-png/" aria-label="Logo que simboliza a franquia" rel="external" target="_blank">Logo do site</a>
                 </li>
@@ -218,12 +212,8 @@
                 <li>
                     <a href="https://www.flaticon.com/free-icons/star-wars" aria-label="Ícone que representa a: duas espadas" title="star wars icons" rel="external" target="_blank">Ícone do site</a>
                 </li>
-
             </ul>
-
         </section>
-
     </footer>
-
 </body>
 </html>
