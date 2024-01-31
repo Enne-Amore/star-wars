@@ -1,59 +1,10 @@
-/* A mente do site */
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
+/* A mente do site */
 body {
     max-width: 100%;
     height: auto;
     font: 1.8vw var(--fonte-padrao);
-}
-
-:focus {
-    outline: 0;
-}
-
-/* Fonte Ortográfica */
-@font-face {
-    font-family: 'star-wars';
-    src: url(../fonts/sf_distant_galaxy/SF\ Distant\ Galaxy\ Outline.ttf) format(truetype);
-}
-
-/* Variáveis de cores e de fonte */
-:root {
-    --vermelha-escura: #730710;
-    --vermelha-clara: #D91828;
-    --amarela-escura: #F29F05;
-    --amarela-clara: #F2B705;
-    --laranja: #F28705;
-    --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-titulo: 'star-wars';
-}
-
-/* Estilização da barrinha de rolagem */
-::-webkit-scrollbar {
-    width: auto;
-}
-::-webkit-scrollbar-track {
-    background-color: black;
-}
-::-webkit-scrollbar-thumb {
-    background-color: var(--amarela-clara);
-    border-radius: 1em;
-}
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--amarela-escura);
-}
-::-webkit-scrollbar-thumb:active {
-    background-color: var(--laranja);
 }
 
 /* O cabeçalho do site */
@@ -248,15 +199,15 @@ body {
     background-color: rgba(0, 0, 0, 0.178);
 }
 
-#conteudo #curiosidades p {
-    text-align: center;
-    width: fit-content;
-    text-decoration: underline;
-}
 #conteudo #curiosidades {
     width: 80%;
     gap: 0.8em;
     margin: 4% auto;
+}
+#conteudo #curiosidades p {
+    text-align: center;
+    width: fit-content;
+    text-decoration: underline;
 }
 #conteudo #curiosidades .curiosidades {
     padding: 0.1em 1em 0.8em;
@@ -358,6 +309,7 @@ body {
     padding: 1%;
     z-index: 1;
     transition-duration: .2s;
+    animation: fade .3s ease;
 }
 #conteudo #topo:focus-visible {
     outline: auto;

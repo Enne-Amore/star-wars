@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Fonte */
+@font-face {
+    font-family: 'star-wars';
+    src: url(../fonts/sf_distant_galaxy/SF\ Distant\ Galaxy\ Outline.ttf) format(truetype);
+}
+
+/* Reset nas tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:focus {
+    outline: 0;
+}
+
+/* Variáveis de cores e de fonte */
+:root {
+    --vermelha-escura: #730710;
+    --vermelha-clara: #D91828;
+    --amarela-escura: #F29F05;
+    --amarela-clara: #F2B705;
+    --laranja: #F28705;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'star-wars';
+}
+
+/* Estilização da barrinha de rolagem */
+::-webkit-scrollbar {
+    width: auto;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--amarela-clara);
+    border-radius: 1em;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--amarela-escura);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--laranja);
+}
+
+/* Animações dos elementos */
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
