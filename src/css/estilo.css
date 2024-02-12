@@ -7,17 +7,17 @@ body {
     font: 1.8vw var(--fonte-padrao);
 }
 
-/* O cabeçalho do site */
+/* Cabeçalho */
 #cabecalho {
+    position: relative;
     background-color: black;
     color: white;
     padding: 1em 1em 0;
-
 }
 
 #cabecalho #menu .material-symbols-outlined {
     position: absolute;
-    top: 3%;
+    top: 5%;
     cursor: pointer;
     color: var(--amarela-clara);
     font-size: 3em;
@@ -88,9 +88,8 @@ body {
     padding: 2em 0 0.5em;
 }
 #cabecalho .nav ul a {
-    text-decoration: none;
     color: var(--amarela-clara);
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
     padding: 0.5em;
     border-radius: 0.3em;

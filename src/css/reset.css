@@ -13,8 +13,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--laranja);
+    animation: aparecer .5s ease-out;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
 }
 
 :focus {
@@ -51,6 +60,17 @@ html {
 }
 
 /* Animações dos elementos */
+@keyframes aparecer {
+    from {
+        transform: translateX(-5px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
 @keyframes fade {
     from {
         opacity: 0;
