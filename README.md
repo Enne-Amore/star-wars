@@ -26,6 +26,32 @@
  </p>
 
 
+## 📂 Estrutura do Projeto
+
+ ```plaintext
+ star-wars/
+ ├── css/                    # Arquivos CSS
+ │   ├── reset.css       
+ │   ├── responsive.css  
+ │   ├── style.css       
+ ├── docs/                   # Arquivos de documentação do projeto
+ │   ├── autorias.txt
+ ├── fonts/                  # Arquivos das fontes utilizadas  
+ │   ├── sf-distant-galaxy/
+ ├── img/                    # Imagens utilizadas 
+ ├── js/                     # Arquivos JavaScript
+ │   ├── menu.js
+ │   ├── personagens.js
+ │   ├── topo.js
+ ├── view/                   # Arquivos de páginas secundárias  
+ │   ├── galeria.html
+ ├── .gitattributes
+ ├── index.html              # Arquivo principal de renderização
+ ├── LICENSE                 # Arquivo de licença do projeto
+ ├── README.md
+ ```
+
+
 ## 📁 Documentação da API
 
 ### Base da URL
