@@ -73,7 +73,6 @@ body {
     display: inline;
 }
 #cabecalho .logo a:focus-visible {
-    outline: auto;
     border-radius: 1em;
 }
 #cabecalho .logo a img {
@@ -309,9 +308,6 @@ body {
     z-index: 1;
     transition-duration: .2s;
     animation: fade .3s ease;
-}
-#conteudo #topo:focus-visible {
-    outline: auto;
 }
 #conteudo #topo:hover,
 #conteudo #topo:focus {

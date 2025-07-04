@@ -2,8 +2,8 @@
 
 /* Fonte */
 @font-face {
-    font-family: 'star-wars';
-    src: url(../fonts/sf_distant_galaxy/SF\ Distant\ Galaxy\ Outline.ttf) format(truetype);
+    font-family: "star-wars";
+    src: url(../fonts/sf-distant-galaxy/SF\ Distant\ Galaxy\ Outline.ttf) format(truetype);
 }
 
 /* Reset nas tags */
@@ -26,10 +26,6 @@ a {
     text-decoration: none;
 }
 
-:focus {
-    outline: 0;
-}
-
 /* Variáveis de cores e de fonte */
 :root {
     --vermelha-escura: #730710;
@@ -38,7 +34,7 @@ a {
     --amarela-clara: #F2B705;
     --laranja: #F28705;
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-titulo: 'star-wars';
+    --fonte-titulo: "star-wars";
 }
 
 /* Estilização da barrinha de rolagem */
