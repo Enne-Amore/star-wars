@@ -8,6 +8,11 @@
  [Clique aqui para acessar o website](https://enne-amore.github.io/star-wars/)
 
 
+## 🎞️ Pré-visualização
+
+ <img src="img/preview.png" alt="Pré-visualização do site" width="340" height="200">
+
+
 ## ⚡ Funcionalidades
 
  - Menu de navegação por páginas abrível e fechável
