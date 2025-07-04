@@ -11,7 +11,7 @@ function mostrarPersonagens() {
         // })
         // Adicionando cada info na tela
         let foto = document.getElementsByClassName('foto')[i - 1]
-        foto.innerHTML += `<img src="../image/personagem-${i}.jpeg" />`
+        foto.innerHTML += `<img src="../img/personagem-${i}.jpeg" />`
     }
     for (let i = 1 ; i <= 10 ; i++) {
             fetch(url + i + '/')
