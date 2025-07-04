@@ -26,10 +26,6 @@ a {
     text-decoration: none;
 }
 
-:focus {
-    outline: 0;
-}
-
 /* Variáveis de cores e de fonte */
 :root {
     --vermelha-escura: #730710;
