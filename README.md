@@ -138,7 +138,7 @@
 
 ## 🔤 Fontes Tipográficas
 
- - **SF\ Distant\ Galaxy\ Outline**  
+ - **SF Distant Galaxy Outline**  
    Exemplo de uso:  
    `font-family: "star-wars";` ou 
    `font-family: var(--fonte-titulo);`
