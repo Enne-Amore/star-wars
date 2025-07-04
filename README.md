@@ -131,6 +131,18 @@
  | Laranja         | `#F28705`   |
 
 
+## 🔤 Fontes Tipográficas
+
+ - **SF\ Distant\ Galaxy\ Outline**  
+   Exemplo de uso:  
+   `font-family: "star-wars";` ou 
+   `font-family: var(--fonte-titulo);`
+ - **Arial, Helvetica, Sans-Serif**  
+   Exemplo de uso:  
+   `font-family: Arial, Helvetica, sans-serif;` ou 
+   `font-family: var(--fonte-padrao);`
+
+
 ## 🌟 Referências de Uso
 
  - [API Usada](https://swapi.dev/api/)

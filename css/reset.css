@@ -2,7 +2,7 @@
 
 /* Fonte */
 @font-face {
-    font-family: 'star-wars';
+    font-family: "star-wars";
     src: url(../fonts/sf-distant-galaxy/SF\ Distant\ Galaxy\ Outline.ttf) format(truetype);
 }
 
@@ -34,7 +34,7 @@ a {
     --amarela-clara: #F2B705;
     --laranja: #F28705;
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-titulo: 'star-wars';
+    --fonte-titulo: "star-wars";
 }
 
 /* Estilização da barrinha de rolagem */
